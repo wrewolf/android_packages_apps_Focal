@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 The CyanogenMod Project
+
+     This program is free software; you can redistribute it and/or
+     modify it under the terms of the GNU General Public License
+     as published by the Free Software Foundation; either version 2
+     of the License, or (at your option) any later version.
+
+     This program is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License
+     along with this program; if not, write to the Free Software
+     Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+     MA  02110-1301, USA.
+-->
+<resources>
+    <string name="app_name">Фокал</string>
+    <string name="launch_app">Запустить Фокал</string>
+    <string name="shutter_button">Кнопка спуска</string>
+    <string name="cannot_connect_hal">Невозможно соединиться с камерой</string>
+    <string name="recording">Запись</string>
+    <string name="double_tap_to_snapshot">Двойной там для снимка</string>
+    <string name="video_res_1080p">Full HD (1080p)</string>
+    <string name="video_res_720p">HD (720p)</string>
+    <string name="video_res_480p">SD (480p)</string>
+    <string name="video_res_mms">MMS (288p)</string>
+    <string name="ok">OK</string>
+    <string name="no_gles20_support">Ваше устройство не поддерживает GLES2</string>
+    <string name="no_gyroscope">Ваше устройство не имеет гироскоп</string>
+    <string name="ps_long_press_to_stop">Долгое нажитие на спуск \nдля завершения сферы.</string>
+    <string name="disabled">Отключенно</string>
+    <string name="enabled">Включенно</string>
+    <string name="no_video_player">Невозможно воспроизвести видео, видеопроигрыватель не найден</string>
+    <string name="fullscreen_shutter_info">Тап в любом месте для снимка</string>
+    <string name="please_wait">Ожидайте\u2026</string>
+    <string name="retouch">RETOUCH</string>
+    <string name="open_in_gallery">Геллерея</string>
+
+    <string name="mode_photo">Фото</string>
+    <string name="mode_video">Видео</string>
+    <string name="mode_picsphere">Сфера</string>
+    <string name="mode_panorama">Панорама</string>
+    <string name="mode_switchcam">Поиск лиц</string>
+
+    <!-- Widgets hints for non-arrayed widgets -->
+    <string name="widget_burstmode_count_shots">Burst %d shots</string>
+    <string name="widget_burstmode_off">Disable burst mode</string>
+    <string name="widget_burstmode_infinite">Infinite burst</string>
+
+    <string name="widget_hdr_aebracket">Авто брекетинг</string>
+
+    <string name="widget_settings_choose_widgets">Выберете виджет в сайдбаре</string>
+    <string name="widget_settings_choose_widgets_button">Выберете виджет</string>
+    <string name="widget_settings_picture_size">Размер изображения</string>
+    <string name="widget_settings_exposure_ring">Показать кольцо экспозиции</string>
+    <string name="widget_settings_autoenhance">Авто улучшение</string>
+    <string name="widget_settings_ruleofthirds">Правило трех</string>
+
+    <string name="widget_autoexposure">Режим экспозиции</string>
+    <string name="widget_burstmode">Burst mode</string>
+    <string name="widget_effect">Цветовой эффект</string>
+    <string name="widget_enhancements">Улучшение цветов</string>
+    <string name="widget_exposure_compensation">Компенсация экспозиции</string>
+    <string name="widget_flash">Вспышка</string>
+    <string name="widget_hdr">HDR снимки</string>
+    <string name="widget_iso">Чувствительность ISO</string>
+    <string name="widget_scenemode">Режим сцены</string>
+    <string name="widget_settings">Настройки</string>
+    <string name="widget_shutter_speed">Скорость съемки</string>
+    <string name="widget_skintone">Улучшение тона кожи</string>
+    <string name="widget_softwarehdr">HDR</string>
+    <string name="widget_timermode">Таймер</string>
+    <string name="widget_videofr">Частота кадров видео</string>
+    <string name="widget_videohdr">HDR видео</string>
+    <string name="widget_whitebalance">Баланс белого</string>
+
+    <!-- Panorama mode -->
+    <!-- Filename prefix for panorama output -->
+    <string name="pano_file_name_format" translatable="false">"'PANO'_yyyyMMdd_HHmmss"</string>
+
+    <string name="pano_panorama_rendering_failed">Невозможно склеить панораму.\nПопробуйте более короткую.</string>
+    <string name="pano_panorama_rendering">Склейка панорамы\u2026</string>
+
+    <!-- PicSphere status -->
+    <string name="picsphere_undo_button">Отмена</string>
+    <string name="picsphere_start_hint">Сделайте снимок, что бы начать сферу</string>
+    <string name="picsphere_already_rendering">Пожалуйста ожилейте, сфера склеивается</string>
+    <string name="picsphere_rendering_progress">Склейка\u2026 (%d %%)</string>
+    <string name="picsphere_toast_background_render">Склейка начата\u2026</string>
+    <string name="picsphere_notif_title">Склейка Сферы\u2026</string>
+    <string name="picsphere_failed">Ошибка склейки Сферы</string>
+    <string name="picsphere_failed_details">Убедитесь что кадры перекрывают друг друга.</string>
+    <string name="picsphere_need_two_pics">Вам требуеться минимум 2 кадра.</string>
+    <string name="picsphere_step_preparing">Подготовка\u2026</string>
+    <string name="picsphere_step_autopano">Расчет совпадений\u2026</string>
+    <string name="picsphere_step_autooptimiser">Оптимизация совпадения\u2026</string>
+    <string name="picsphere_step_ptclean">Очистка точек совпадения\u2026</string>
+    <string name="picsphere_step_panomodify">Обрезка пустых участков\u2026</string>
+    <string name="picsphere_step_nona">Склейка кадров\u2026</string>
+    <string name="picsphere_step_enblend">Смешивание кадров\u2026</string>
+
+    <!-- Software HDR status -->
+    <string name="software_hdr_notif_title">Обработка HDR кадра\u2026</string>
+    <string name="software_hdr_failed">HDR ошибка обработки</string>
+    <string name="software_hdr_failed_details">Исходное изображение сохранено.</string>
+
+    <!-- Showcase text -->
+    <string name="showcase_welcome_1_title">Добро пожаловать!</string>
+    <string name="showcase_welcome_1_body">Настройки в сайдбаре,\nпопробуйте вытянуть их.</string>
+    <string name="showcase_welcome_2_title">Спуск</string>
+    <string name="showcase_welcome_2_body">Тапни для съемки.\nПроведи чтобы выбрать режим съемки.</string>
+    <string name="showcase_panorama_title">Режим панорамы</string>
+    <string name="showcase_panorama_body">Тапни чтобы начать панораму,\nзатем захватите всю панораму движением.\nЕще один тап чтобы остановить захват.</string>
+    <string name="showcase_picsphere_title">Режим Сферы</string>
+    <string name="showcase_picsphere_body">Align your first picture where you like,\nthen tap the shutter to take each picture\nof the sphere. The blue dots are points\nof reference you can follow.\nLong-press the shutter once you\'re done.</string>
+</resources>
